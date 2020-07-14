@@ -1,0 +1,50 @@
+.section-faqs {
+    padding-top: 50px;
+    background-color: #f9f9f9;
+}
+
+.section-faqs .faqs-list ul {
+    list-style: none;
+}
+
+.section-faqs .faqs-list ul li {
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+    transition: box-shadow .5s;
+}
+
+.faq-item:hover {
+    box-shadow: 0px 0px 1px 2px hsla(210, 14%, 49%, 0.3);
+}
+
+.faq-title {
+    height: 100%;
+}
+
+.faq-title a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #8aa038!important;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.faq-title i {
+    align-self: center;
+}
+
+.faq-body {
+    padding: 5px 25px;
+}
+
+.faq-body p {
+    font-weight: 400;
+}

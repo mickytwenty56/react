@@ -1,0 +1,16 @@
+.section-contact-us {
+    padding-top: 50px;
+}
+
+textarea.form-control {
+    max-height: 150px;
+}
+
+.input-group-danger {
+    border-color: #ffcfcf!important;
+}
+
+.landing-page .modal.modal-mini .modal-dialog {
+    max-width: 400px;
+    margin: 50px auto;
+}

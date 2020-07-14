@@ -1,0 +1,187 @@
+.section-btsc {
+    background-size: auto;
+    background-position: center top;
+    background-color: #2c2c2c;
+    background-repeat-y: no-repeat;
+}
+
+.btsc-header {
+    padding-top: 50px!important;
+    padding: 30px 0px;
+    background-color: transparent;
+}
+
+.btsc-header .header {
+    border: 1px none darkcyan;
+    border-radius: 3px;
+}
+
+.btsc-header .header h2 {
+    text-align: center;
+    color: limegreen;
+}
+
+.btsc-header .header .header-description {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btsc-header .header .header-description p {
+    text-align: center;
+    padding: 3px 10px;
+    font-weight: 600;
+    color: gold;
+    margin-bottom: 3px;
+}
+
+.btsc-header .header .header-description p span, .btsc-header .header .header-table .more p span {
+    font-size: 17px;
+    font-weight: 500;
+    color: azure;
+}
+
+.btsc-header .header .header-table .more {
+    font-size: 20px;
+    font-weight: 600;
+    color: azure;
+    text-align: center;
+}
+
+.btsc-header .header .header-table .table-container {
+    position: relative;
+    max-height: 550px;
+    overflow: hidden scroll;
+}
+
+.btsc-header .header-seats {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-seats .progress-title1 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #9fff9a;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.header-seats .progress-title2 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff700;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.header-seats .progress-container .progress-badge, .progress-container .progress-value {
+    font-size: 20px!important;
+}
+
+.header-seats .progress-container .progress {
+    height: 5px;
+}
+
+.header-seats .progress-offered .progress-badge,  .header-seats .progress-offered .progress-value {
+    color: #9fff9a;
+}
+
+.header-seats .progress-offered, .header-seats .progress-demanded {
+    text-align: right;
+}
+
+.header-seats .progress-demanded .progress-badge, .header-seats .progress-demanded .progress-value {
+    color: #fff700;
+}
+
+.header-seats .progress-demanded .progress {
+    background-color: rgba(105, 128, 37, 0.3);
+}
+
+.header-seats .progress-demanded .progress-bar {
+    background-color: rgba(229, 255, 126, 1);
+}
+
+.btsc-form {
+    background-color: transparent;
+}
+
+.form-btsc {
+    width: 100%;
+    min-height: 640px;
+    background-color: green!important;
+    padding: 30px 0;
+}
+
+.form-btsc .card-header {
+    margin: 5px 20px;
+    padding: 5px 0;
+}
+
+.form-btsc .card-body {
+    padding: 5px 20px;
+}
+
+.form-btsc .title-up {
+    margin-top: 10px;
+}
+
+.form-btsc .description {
+    margin-top: 5px;
+}
+
+.form-btsc .description h5 {
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+.row-estimate {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-col {
+    margin-bottom: 10px;
+}
+
+label span {
+    color: blue;
+}
+
+.rdt > input {
+    background-color: white;
+    color: black!important;
+}
+
+.rdtPicker td {
+    color: black;
+}
+
+.modal.modal-mini .modal-dialog {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.modal-body > p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modal-footer {
+    justify-content: flex-end!important;
+}
+
+.modal-footer button {
+    opacity: 1!important;
+}
+
+.download-app p {
+    font-weight: 500;
+}
+
+.download-app a {
+    cursor: pointer;
+    color: rgb(1, 243, 219)!important;
+    text-transform: uppercase;
+}

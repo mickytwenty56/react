@@ -1,0 +1,14 @@
+.footer ul li {
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-title {
+    margin-top: 15px;
+}
+
+.footer img {
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+}

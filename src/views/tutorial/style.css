@@ -1,0 +1,26 @@
+.section-tutorial {
+    padding-top: 50px;
+    background-color: #fdf6ea;
+}
+
+.section-tutorial .video-text {
+    align-self: center;
+}
+
+.section-tutorial .title {
+    padding-top: 0px;
+}
+
+.section-tutorial .video-1 {
+    padding: 40px 20px;
+    background-color: #f9f0e2;
+}
+
+.section-tutorial .video-2 {
+    padding: 40px 20px;
+    background-color: #fdf6ea;
+}
+
+.section-tutorial h3 {
+    text-transform: capitalize;
+}

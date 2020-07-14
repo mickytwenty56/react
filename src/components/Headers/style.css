@@ -1,0 +1,69 @@
+.carousel-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carousel-caption {
+    bottom: 23%;
+}
+
+.carousel-caption h3 {
+    color: deepskyblue;
+    font-size: 56px;
+    text-shadow: 1px 1px lightskyblue;
+}
+
+.carousel-caption h5 {
+    color: gold;
+    font-size: 36px;
+    text-shadow: 1px 1px goldenrod;
+}
+
+.index-page .page-header {
+    height: 600px;
+}
+
+.page-header {
+    height: 600px;
+}
+
+.about-header {
+    height: 350px!important;
+    min-height: 0px;
+}
+
+.profile-page .section-follow {
+    padding-bottom: 0px;
+}
+
+.download-content {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.download-content .download-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.download-content img {
+    width: 195px;
+    height: 65px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .download-content {
+        top: 70%;
+        left: 50%;
+        max-width: 500px;
+    }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "seatus-webapp",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "better-npm-run": "^0.1.1",
+    "core-util-is": "^1.0.2",
+    "d3-ease": "^1.0.6",
+    "moment": "2.24.0",
+    "node-sass": "4.12.0",
+    "nouislider": "14.0.2",
+    "react": "16.8.6",
+    "react-bootstrap-switch": "15.5.3",
+    "react-circular-progressbar": "^2.0.3",
+    "react-datetime": "^2.16.3",
+    "react-dom": "16.8.6",
+    "react-google-places-autocomplete": "^2.0.6",
+    "react-move": "^6.1.0",
+    "react-router": "5.0.1",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.16",
+    "react-slick": "^0.26.1",
+    "react-youtube": "^7.11.2",
+    "reactstrap": "8.0.1",
+    "slick-carousel": "^1.8.1",
+    "string-format": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
+    "minify-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css --source-map true",
+    "clean": "rimraf dist",
+    "compile": "better-npm-run compile",
+    "deploy": "better-npm-run deploy",
+    "deploy:dev": "better-npm-run deploy:dev",
+    "deploy:prod": "better-npm-run deploy:prod",
+    "build:prod": "docker build -t gowyth/seatus-webapp-prod .",
+    "start:prod": "docker run --rm -d -p 80:80 --name running-seatus-webapp gowyth/seatus-webapp-prod",
+    "stop:prod": "docker stop running-seatus-webapp"
+  },
+  "betterScripts": {
+    "compile": {
+      "command": "npm run build",
+      "env": {
+        "DEBUG": "app:*"
+      }
+    },
+    "deploy": {
+      "command": "npm run clean && npm run compile",
+      "env": {
+        "DEBUG": "app:*"
+      }
+    },
+    "deploy:dev": {
+      "command": "npm run deploy",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "app:*"
+      }
+    },
+    "deploy:prod": {
+      "command": "npm run deploy",
+      "env": {
+        "NODE_ENV": "production",
+        "DEBUG": "app:*"
+      }
+    },
+    "start": {
+      "command": "npm start",
+      "env": {
+        "DEBUG": "app:*"
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "3.5.3"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.10.3"
+  }
+}
